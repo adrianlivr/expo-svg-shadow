@@ -9,7 +9,7 @@ export interface BorderShadowProps {
   border?: number;
   opacity?: number;
   inset?: boolean;
-  style?: { [key: string]: any };
+  style?: { [key: string]: unknown };
   children?: React.ReactNode;
 }
 

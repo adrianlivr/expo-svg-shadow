@@ -19,7 +19,7 @@ export interface BoxShadowProps {
   opacity?: number;
   x?: number;
   y?: number;
-  style?: { [key: string]: any };
+  style?: { [key: string]: unknown };
   children?: JSX.Element | JSX.Element[];
 }
 

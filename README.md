@@ -11,18 +11,18 @@ Create shadow efects with SVG components
 ## Installation
 
 ```bash
-yarn add @adrianlivr/expo-svg-shadow
+yarn add @loveslabs/expo-svg-shadow
 
 # or
 
-npm install @adrianlivr/expo-svg-shadow
+npm install @loveslabs/expo-svg-shadow
 ```
 
 ## Usage
 
 ```typescript
 import { View } from 'react-native';
-import { BoxShadow } from '@adrianlivr/expo-svg-shadow';
+import { BoxShadow } from '@loveslabs/expo-svg-shadow';
 
 const shadowOpt = {
   width: 280,
